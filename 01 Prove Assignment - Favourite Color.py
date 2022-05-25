@@ -1,0 +1,12 @@
+color = input('Please type your favorite color:')
+print('I already know that your favorite color is')
+print(color)
+print()
+# I really hope that you answer well!
+notice = input("It's possible that your color background is the same as your favorite color?")
+print('So possible as you are talking with a computer program!!')
+print(notice)
+print("That's all Folks! ♪♫")
+print('Next week, wear a')
+print(color)
+print('shirt!')
