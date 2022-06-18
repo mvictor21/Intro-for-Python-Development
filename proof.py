@@ -1,4 +1,4 @@
-print("Please enter the following information:")
+print("Please enter the following information: ")
 print()
 first = input("First name: ")
 last = input("Last name: ")

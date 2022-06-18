@@ -1,6 +1,5 @@
-x = 5
+sentence_input = str(input("What is your favorite letter? "))
 
-if x = 5:
-    print("first")
-else:
-    print("second")
+string = "commitment"
+if sentence_input.islower():
+    print(string)
