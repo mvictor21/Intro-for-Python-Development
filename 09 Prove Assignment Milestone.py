@@ -1,17 +1,20 @@
-from re import X
+cart_items = []
+cart_total = 0
+item_price = 0
 
+print("Welcome to the Shopping Cart Program!")
+print("Please, enter an action:")
+while cart_items != 5:
+    new_item = input("What item would you like to add? ")
+    cart_items.append(new_item)
+    print(f"{new_item} has been added to the cart.")
 
-clients = []
+def addItem(item_name, item_price):
+    print(cart_items[0])
+cart_total += item_price
 
-print("Enter a list of numbers, type 0 when finished.")
+cartsummary = {}
+cartsummary = dict((item, cart_items.count(item))for item in cart_items)
 
-number = 0
-while number != 0:
-    new_client = input("What is the name of the new client? ")
-    clients.append(new_client)
-
-print()
-print("The client list: ")
-
-for client in clients:
-    print(client)
+for i in range(0, len(cart_items)):
+    print(cart_items[i])
